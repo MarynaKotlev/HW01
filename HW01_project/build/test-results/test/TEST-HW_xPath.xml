@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HW_xPath" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-10T15:54:09" hostname="DESKTOP-MEFJ5G1" time="1.618">
+  <properties/>
+  <testcase name="HW_xPath" classname="HW_xPath" time="1.618"/>
+  <system-out><![CDATA[Count of columns = 3
+Count of rows = 4
+Country = Israel
+Last row = Poland Chine Mexico
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 53124
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1662825250.344][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+сент. 10, 2022 6:54:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+сент. 10, 2022 6:54:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 104
+сент. 10, 2022 6:54:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 105 of 104
+]]></system-err>
+</testsuite>
