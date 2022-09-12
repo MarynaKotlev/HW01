@@ -13,7 +13,7 @@ public class xPathToCssAndBack {
         wd.findElement(By.xpath("//a[@href]"));
 
         wd.findElement(By.cssSelector("[href ^='/ho']"));
-        wd.findElement(By.xpath("[starts-with(@href, '/ho')]"));
+        wd.findElement(By.xpath("//[starts-with(@href, '/ho')]"));
 
         wd.findElement(By.cssSelector("div.focus"));
         wd.findElement(By.xpath("//div[@class='focus']"));
@@ -22,16 +22,16 @@ public class xPathToCssAndBack {
         wd.findElement(By.xpath("//input[@type='text']"));
 
         wd.findElement(By.cssSelector("div #host"));
-        wd.findElement(By.xpath("div//[@id='host']"));
+        wd.findElement(By.xpath("//div//[@id='host']"));
 
         wd.findElement(By.cssSelector("table#country tr:nt-child(3)) td:last-child"));
-        wd.findElement(By.xpath("table[@id='country']//tr[3]//td[last()]"));
+        wd.findElement(By.xpath("//table[@id='country']//tr[3]//td[last()]"));
 
         wd.findElement(By.cssSelector("div#idName li:first-child"));
-        wd.findElement(By.xpath("div[@id='idName']//li[1]"));
+        wd.findElement(By.xpath("//div[@id='idName']//li[1]"));
 
         wd.findElement(By.cssSelector("div.sort>div:nth-child(2)"));
-        wd.findElement(By.xpath("div[@class='sort']/div[2]"));
+        wd.findElement(By.xpath("//div[@class='sort']/div[2]"));
 
 
     }
